@@ -1,1 +1,42 @@
+1. What does an empty dictionary's code look like?
+Ans:- 
+The dictonary format looks like '{}'.
+
+2. What is the value of a dictionary value with the key 'foo' and the value 42?
+Ans:-
+Dictionary will be  {'foo':42}
+here value is '42', while key is 'foo'
+
+3. What is the most significant distinction between a dictionary and a list?
+Ans:-
+List is used to stoer data in squces and a dicpline way , while dictionary is easy to store data in efficient way and easy to access and make 
+changes .
+
+4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
+Ans:-
+Here we are writing a dcitonary spam={'bar':100}
+ while we calls 'foo' this function will through error as below:-
+ NameError: name 'foo' is not defined
+ 
+5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.keys()?
+Ans:-
+There will be no difference between both while we are using key cat or value cat , the oprators check weather there key is cat or value is cat.
+
+6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.values()?
+Ans:-
+There will be no difference between both while we are using key cat or value cat , the opratos checks wether there value is cat or key is cat.
+
+7. What is a shortcut for the following code?
+if 'color' not in spam:
+spam['color'] = 'black'
+Ans:-
+Shortcut for above code will be as below.
+spam['color'=spam.get('color','black')
+
+8. How do you "pretty print" dictionary values using which module and function?
+Ans:-
+In python librery 'json' provides json.dumps() to pretty-print for the dictonary values.
+by running this function we can print key value both.
+
+
 
